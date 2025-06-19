@@ -7,7 +7,7 @@
 */
 
 function capitalizeWords(str) {
-    str1 = str[0].toUpperCase()
+   let str1 = str[0].toUpperCase()
     for (let i = 1; i < str.length; i++) {
         if (str[i - 1] === ' ') {
             str1 = str1 + str[i].toUpperCase()
@@ -18,4 +18,4 @@ function capitalizeWords(str) {
     return str1
 }
 
-console.log(capitalizeWords('hello world from javascript'))
+console.log(capitalizeWords('a'))
