@@ -33,6 +33,7 @@ let isTimerStarted = false
 let timerId
 
 startButton.addEventListener('click', () => {
+    clearInterval(timerId)
     let counter = 3
     timerId = setInterval(function print() {
         if (counter > 0) {
