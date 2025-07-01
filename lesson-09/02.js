@@ -36,7 +36,7 @@ startButton.addEventListener('click', () => {
     if (isTimerStarted === false) {
         console.log("start")
         let counter = 2
-        countdownDisplay.textContent = counter +1
+        countdownDisplay.textContent = counter + 1
         timerId = setInterval(function print() {
             if (counter > 0) {
                 isTimerStarted = true
